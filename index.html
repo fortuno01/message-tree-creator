@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<section class="interface">
+	<form class="message-creator">
+		<input class="message-creator__text" type="text">
+		<button class="message-creator__add">добавить</button>
+		<button class="message-creator__save" type="button" style="margin-left: 10px;">сохранить</button>
+	</form>
+	<div class="interface__message-tree drag-zone" data-js="dropZone">
+		<div class="drag-zone__node" draggable="true">1</div>
+		<div class="drag-zone__node" draggable="true">2</div>
+		<div class="drag-zone__node" draggable="true">3</div>
+		<div class="drag-zone__node" draggable="true">4</div>
+<!--		<div class="drag-zone__branches">-->
+<!--			<div class="drag-zone__branch" data-js="dropZone">-->
+<!--				<div class="drag-zone__node" draggable="true">8</div>-->
+<!--				<div class="drag-zone__node" draggable="true">7</div>-->
+<!--			</div>-->
+<!--			<div class="drag-zone__branch" data-js="dropZone">-->
+<!--				<div class="drag-zone__node" draggable="true">10</div>-->
+<!--				<div class="drag-zone__node" draggable="true">11</div>-->
+<!--			</div>-->
+<!--		</div>-->
+		<div class="drag-zone__node" draggable="true">sup</div>
+	</div>
+</section>
+<script src="./script.js"></script>
+</body>
+</html>
